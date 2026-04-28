@@ -299,7 +299,7 @@
 
 	weight = 100
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }
 
 je_cement_the_rightful_dynasty = {
@@ -324,7 +324,7 @@ je_cement_the_rightful_dynasty = {
 		if = {
 			limit = {
 				any_scope_character = { ### This is load-bearing cursed script. Do NOT change this to ruler = { } ###
-					is_ruler = yes
+					is_ruler_of_own_country = yes
 					has_variable = legitimist_leader
 				}
 			}
@@ -335,7 +335,7 @@ je_cement_the_rightful_dynasty = {
 		else_if = {
 			limit = {
 				any_scope_character = {
-					is_ruler = yes
+					is_ruler_of_own_country = yes
 					has_variable = house_orleans
 				}
 			}
@@ -346,7 +346,7 @@ je_cement_the_rightful_dynasty = {
 		else_if = {
 			limit = {
 				any_scope_character = {
-					is_ruler = yes
+					is_ruler_of_own_country = yes
 					has_variable = house_bonaparte
 				}
 			}
@@ -550,5 +550,5 @@ je_cement_the_rightful_dynasty = {
 
 	weight = 100
 
-	should_be_pinned_by_default = yes
+	should_be_pinned_by_default_uninvolved_or_context = yes
 }

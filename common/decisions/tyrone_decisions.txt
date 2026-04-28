@@ -1019,8 +1019,8 @@ REPLACE:decision_depose_ruling_dynasty = {
 		}
 		any_scope_character = {
 			OR = {
-				has_role = general
-				has_role = admiral
+				has_role_of_type = general
+				has_role_of_type = admiral
 			}
 			character_has_ideology_conflicting_with_ruling_dynasty = yes
 			NOT = { # You cannot hire a communist to install the Orleanists on the throne
@@ -1052,8 +1052,8 @@ REPLACE:decision_depose_ruling_dynasty = {
 		ordered_scope_character = {
 			limit = {
 				OR = {
-					has_role = general
-					has_role = admiral
+					has_role_of_type = general
+					has_role_of_type = admiral
 				}
 				has_variable = monthly_cached_commander_coup_strength
 				character_has_ideology_conflicting_with_ruling_dynasty = yes

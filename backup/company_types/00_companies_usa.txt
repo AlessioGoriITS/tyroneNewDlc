@@ -25,7 +25,7 @@ company_standard_oil = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				region = sr:region_the_midwest
+				region = sr:region_great_plains
 			}
 		}
 	}
@@ -33,7 +33,7 @@ company_standard_oil = {
 	possible = {
 		has_technology_researched = pumpjacks
 		any_scope_state = {
-			region = sr:region_the_midwest
+			region = sr:region_great_plains
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_oil_rig
@@ -58,7 +58,7 @@ company_standard_oil = {
 		building_oil_rig = {
 			level = 5
 			state_trigger = {
-				region = sr:region_the_midwest
+				region = sr:region_great_plains
 				is_incorporated = yes
 			}
 		}

@@ -107,7 +107,7 @@ company_el_aguila = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-				region = sr:region_mexico
+				region = sr:region_central_america
 			}
 		}
 	}
@@ -115,7 +115,7 @@ company_el_aguila = {
 	possible = {
 		has_technology_researched = pumpjacks
 		any_scope_state = {
-			region = sr:region_mexico
+			region = sr:region_central_america
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_oil_rig
@@ -134,7 +134,7 @@ company_el_aguila = {
 	ai_will_do = {
 		has_technology_researched = pumpjacks
 		any_scope_state = {
-			region = sr:region_mexico
+			region = sr:region_central_america
 			is_incorporated = yes
 			is_coastal = yes
 			has_potential_resource = building_oil_rig
@@ -145,7 +145,7 @@ company_el_aguila = {
 		building_oil_rig = {
 			level = 5
 			state_trigger = {
-				region = sr:region_mexico
+				region = sr:region_central_america
 				is_incorporated = yes
 				is_coastal = yes
 			}

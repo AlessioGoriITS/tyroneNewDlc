@@ -392,10 +392,10 @@ company_prussian_state_railways = {
 		has_technology_researched = railways
 		any_scope_state = {
 			OR = {
-				region = sr:region_north_germany
-				region = sr:region_south_germany
-				region = sr:region_rhine
-				region = sr:region_poland
+				region = sr:region_central_europe
+				region = sr:region_central_europe
+				region = sr:region_central_europe
+				region = sr:region_eastern_europe
 			}
 			is_incorporated = yes
 			any_scope_building = {
@@ -417,10 +417,10 @@ company_prussian_state_railways = {
 		has_technology_researched = railways
 		any_scope_state = {
 			OR = {
-				region = sr:region_north_germany
-				region = sr:region_south_germany
-				region = sr:region_rhine
-				region = sr:region_poland
+				region = sr:region_central_europe
+				region = sr:region_central_europe
+				region = sr:region_central_europe
+				region = sr:region_eastern_europe
 			}
 			is_incorporated = yes
 		}
@@ -431,10 +431,10 @@ company_prussian_state_railways = {
 			level = 5
 			state_trigger = {
 				OR = {
-					region = sr:region_north_germany
-					region = sr:region_south_germany
-					region = sr:region_rhine
-					region = sr:region_poland
+					region = sr:region_central_europe
+					region = sr:region_central_europe
+					region = sr:region_central_europe
+					region = sr:region_eastern_europe
 				}
 				is_incorporated = yes
 			}

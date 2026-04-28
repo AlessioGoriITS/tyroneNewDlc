@@ -114,7 +114,7 @@ company_iranian_state_railway = {
 	possible = {
 		has_technology_researched = railways
 		any_scope_state = {
-			region = sr:region_persia
+			region = sr:region_greater_persia
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_railway
@@ -133,7 +133,7 @@ company_iranian_state_railway = {
 	ai_will_do = {
 		has_technology_researched = railways
 		any_scope_state = {
-			region = sr:region_persia
+			region = sr:region_greater_persia
 			is_incorporated = yes
 		}
 	}
@@ -142,7 +142,7 @@ company_iranian_state_railway = {
 		building_railway = {
 			level = 5
 			state_trigger = {
-				region = sr:region_persia
+				region = sr:region_greater_persia
 				is_incorporated = yes
 			}
 		}
@@ -427,7 +427,7 @@ company_opium_export_monopoly = {
 
 	possible = {
 		any_scope_state = {
-			region = sr:region_persia
+			region = sr:region_greater_persia
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_opium_plantation
@@ -446,7 +446,7 @@ company_opium_export_monopoly = {
 
 	ai_will_do = {
 		any_scope_state = {
-			region = sr:region_persia
+			region = sr:region_greater_persia
 			is_incorporated = yes
 		}
 	}
@@ -455,7 +455,7 @@ company_opium_export_monopoly = {
 		building_opium_plantation = {
 			level = 5
 			state_trigger = {
-				region = sr:region_persia
+				region = sr:region_greater_persia
 				is_incorporated = yes
 			}
 		}
@@ -807,7 +807,7 @@ company_persshelk = {
 			}
 		}
 		any_scope_state = {
-			region = sr:region_persia
+			region = sr:region_greater_persia
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_silk_plantation
@@ -832,7 +832,7 @@ company_persshelk = {
 			}
 		}
 		any_scope_state = {
-			region = sr:region_persia
+			region = sr:region_greater_persia
 			is_incorporated = yes
 		}
 	}
@@ -841,7 +841,7 @@ company_persshelk = {
 		building_silk_plantation = {
 			level = 5
 			state_trigger = {
-				region = sr:region_persia
+				region = sr:region_greater_persia
 				is_incorporated = yes
 			}
 		}
@@ -893,7 +893,7 @@ company_perskhlopok = {
 			}
 		}
 		any_scope_state = {
-			region = sr:region_persia
+			region = sr:region_greater_persia
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_cotton_plantation
@@ -918,7 +918,7 @@ company_perskhlopok = {
 			}
 		}
 		any_scope_state = {
-			region = sr:region_persia
+			region = sr:region_greater_persia
 			is_incorporated = yes
 		}
 	}
@@ -927,7 +927,7 @@ company_perskhlopok = {
 		building_cotton_plantation = {
 			level = 5
 			state_trigger = {
-				region = sr:region_persia
+				region = sr:region_greater_persia
 				is_incorporated = yes
 			}
 		}

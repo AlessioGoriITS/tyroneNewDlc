@@ -26,7 +26,7 @@ company_ccci = {
 		OR = {
 			any_subject_or_below = {
 				any_scope_state = {
-					region = sr:region_congo
+					region = sr:region_equatorial_africa
 					any_scope_building = {
 						is_building_type = building_rubber_plantation
 						level >= 5
@@ -34,7 +34,7 @@ company_ccci = {
 				}
 			}
 			any_scope_state = {
-				region = sr:region_congo
+				region = sr:region_equatorial_africa
 				any_scope_building = {
 					is_building_type = building_rubber_plantation
 					level >= 5
@@ -54,11 +54,11 @@ company_ccci = {
 		OR = {
 			any_subject_or_below = {
 				any_scope_state = {
-					region = sr:region_congo
+					region = sr:region_equatorial_africa
 				}
 			}
 			any_scope_state = {
-				region = sr:region_congo
+				region = sr:region_equatorial_africa
 			}
 		}
 	}
@@ -67,7 +67,7 @@ company_ccci = {
 		building_rubber_plantation = {
 			level = 5
 			state_trigger = {
-				region = sr:region_congo
+				region = sr:region_equatorial_africa
 			}
 		}
 	}

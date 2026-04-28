@@ -84,14 +84,14 @@ company_secn = {
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
-                region = sr:region_iberia
+                region = sr:region_southern_europe
 			}
 		}
 	}
 
 	possible = {
 		any_scope_state = {
-            region = sr:region_iberia
+            region = sr:region_southern_europe
 			state_region = {
 				is_homeland = cu:spanish
 			}
