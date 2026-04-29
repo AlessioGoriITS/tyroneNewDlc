@@ -196,9 +196,9 @@ je_western_saharan_conquest = { #2nd in chain, western sahara after al-rif
 					any_subject_or_below = {
 						any_scope_state = {
 							OR = {
-								region = sr:region_senegal
-								region = sr:region_niger
-								region = sr:region_congo
+								region = sr:region_west_africa
+								region = sr:region_west_africa
+								region = sr:region_equatorial_africa
 							}
 						}
 						is_subject_type = subject_type_colony

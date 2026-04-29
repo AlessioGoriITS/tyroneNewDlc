@@ -69,7 +69,7 @@
 
 	possible = {
 		is_subject = no
-		has_interest_marker_in_region = region_brazil
+		has_interest_marker_in_region = sr:region_brazil
 		"relations(c:BRZ)" > 10
 	}
 
@@ -215,7 +215,7 @@ je_portugal_brazil_reversal = {
 	}
 
 	possible = {
-		has_interest_marker_in_region = region_iberia
+		has_interest_marker_in_region = sr:region_southern_europe
 		"relations(c:POR)" < -50
 		OR = { 	
 			any_interest_group_in_government = {

@@ -20,7 +20,7 @@ company_united_tobacco_factories = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_balkans
+		has_interest_marker_in_region = sr:region_balkans
 		has_dlc_feature = ip3_content
 	}
 
@@ -77,7 +77,7 @@ company_mate_gavrilovic = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_balkans
+		has_interest_marker_in_region = sr:region_balkans
 	}
 
 	attainable = {
@@ -125,7 +125,7 @@ company_stabilimento_tecnico_di_fiume = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_balkans
+		has_interest_marker_in_region = sr:region_balkans
 		has_dlc_feature = ip3_content
 	}
 
@@ -176,7 +176,7 @@ company_klanicko_drustvo = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_balkans
+		has_interest_marker_in_region = sr:region_balkans
 		has_dlc_feature = ip3_content
 	}
 
@@ -225,7 +225,7 @@ company_jakub_klein = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_balkans
+		has_interest_marker_in_region = sr:region_balkans
 	}
 
 	attainable = {
@@ -279,7 +279,7 @@ company_elso_budapesti_gozmalom = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_balkans
+		has_interest_marker_in_region = sr:region_balkans
 		has_dlc_feature = ip3_content
 	}
 
@@ -354,7 +354,7 @@ company_witkowitzer_bergbau_und_huttengewerkschaft = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_south_germany
+		has_interest_marker_in_region = sr:region_central_europe
 		has_dlc_feature = ip3_content
 	}
 
@@ -406,7 +406,7 @@ company_oesterreichisch_alpine_montangesellschaft = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_south_germany
+		has_interest_marker_in_region = sr:region_central_europe
 	}
 
 	attainable = {
@@ -458,7 +458,7 @@ company_getzner_mutter = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_south_germany
+		has_interest_marker_in_region = sr:region_central_europe
 		has_dlc_feature = ip3_content
 	}
 
@@ -514,7 +514,7 @@ company_erste_brunner = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_south_germany
+		has_interest_marker_in_region = sr:region_central_europe
 		has_dlc_feature = ip3_content
 	}
 

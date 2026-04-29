@@ -15,7 +15,7 @@
 				owns_entire_state_region = STATE_MEXICO
 			}
 		}
-		sr:region_mexico = {
+		sr:region_central_america = {
 			any_scope_state = {
 				OR = {
 					owner = root

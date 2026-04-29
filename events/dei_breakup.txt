@@ -242,8 +242,8 @@ alk_breakup.1 = {
 					}
 				}
 				OR = {
-					region = sr:region_manchuria
-					region = sr:region_east_siberia
+					region = sr:region_northeast_asia
+					region = sr:region_siberia
 				}
 			}
 			order_by = gdp

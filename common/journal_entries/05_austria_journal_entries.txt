@@ -70,8 +70,8 @@
 			every_scope_state = {
 				limit = { 
 					OR = {
-						region = sr:region_danubia
-						region = sr:region_poland
+						region = sr:region_balkans
+						region = sr:region_eastern_europe
 						region = sr:region_balkans
 						state_region = s:STATE_ISTRIA
 						state_region = s:STATE_LOMBARDY

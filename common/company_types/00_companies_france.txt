@@ -18,7 +18,7 @@ company_societe_mokta_el_hadid = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_north_africa
+		has_interest_marker_in_region = sr:region_north_africa
 	}
 
 	attainable = {
@@ -93,7 +93,7 @@ company_schneider_creusot = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_france
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -177,7 +177,7 @@ company_dmc = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_rhine
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -322,7 +322,7 @@ company_saint_etienne = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_occitania
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -394,7 +394,7 @@ company_fcm = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_occitania
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -473,7 +473,7 @@ company_mines_anzin = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_france
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {

@@ -892,7 +892,7 @@ je_chinese_concessions = {
 	complete = {
 		OR = {
 			any_scope_state = {
-				region = sr:region_manchuria
+				region = sr:region_northeast_asia
 				is_treaty_port = yes
 			}
 			AND = {
@@ -903,7 +903,7 @@ je_chinese_concessions = {
 		}
         any_state = {
             filter = {
-                region = sr:region_manchuria
+                region = sr:region_northeast_asia
 				custom_tooltip = {
 					text = owned_by_russia_or_chinese_country
 					OR = {
@@ -1034,8 +1034,8 @@ je_counter_russian_pacific_influence = {
 		any_diplomatically_relevant_country = {
 			country_rank >= rank_value:unrecognized_major_power
 			OR = {
-				capital.region = sr:region_japan
-				capital.region = sr:region_manchuria
+				capital.region = sr:region_northeast_asia
+				capital.region = sr:region_northeast_asia
 				capital.region = sr:region_north_china
 				capital.region = sr:region_south_china
 				capital.region = sr:region_indonesia
@@ -1085,10 +1085,10 @@ je_consolidate_british_india = {
 		c:GBR = {
 			save_scope_as = britain_scope
 		}
-		sr:region_bengal = {
+		sr:region_north_india = {
 			save_scope_as = north_india_region
 		}
-		sr:region_madras = {
+		sr:region_south_india = {
 			save_scope_as = south_india_region
 		}
 		s:STATE_MANDALAY = {
@@ -1119,8 +1119,8 @@ je_consolidate_british_india = {
 				any_country = {
 					capital = {
 						OR = {
-							region = sr:region_bengal
-							region = sr:region_madras
+							region = sr:region_north_india
+							region = sr:region_south_india
 						}
 					}
 					NOT = {

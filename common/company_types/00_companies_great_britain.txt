@@ -28,7 +28,7 @@ company_j_p_coats = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_north_sea_coast
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -104,7 +104,7 @@ company_armstrong_whitworth = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_england
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -182,7 +182,7 @@ company_john_brown = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_north_sea_coast
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -253,7 +253,7 @@ company_gwr = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_england
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {
@@ -334,7 +334,7 @@ company_bolckow_vaughan = {
 	}
 
 	potential = {
-		has_interest_marker_in_region = region_england
+		has_interest_marker_in_region = sr:region_western_europe
 	}
 
 	attainable = {

@@ -10,11 +10,11 @@
 	should_show_when_not_involved = {
 		OR = {
 			capital = {
-				region = sr:region_england
+				region = sr:region_western_europe
 			}
             top_overlord ?= {
                 capital = {
-					region = sr:region_england
+					region = sr:region_western_europe
                 }
             }
 		}

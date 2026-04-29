@@ -919,7 +919,7 @@ je_pacify_the_steppes = {
                                 country_has_primary_culture = cu:turkmen
                                 country_has_primary_culture = cu:uighur
                             }
-                            has_interest_marker_in_region = region_central_asia
+                            has_interest_marker_in_region = sr:region_central_asia
                             c:RUS.relations:root <= 0
                             NOT = {
                                 has_variable = kenesary_recognizer_var

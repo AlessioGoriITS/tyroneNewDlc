@@ -28,7 +28,7 @@
 			}
 		}
 		has_law_or_variant = law_type:law_colonial_exploitation
-		sr:region_congo = {
+		sr:region_equatorial_africa = {
 			save_temporary_scope_as = congo_region
 		}
 		custom_tooltip = {

@@ -2096,7 +2096,7 @@
 
 #		create_military_formation = { # Irregular Forces, Cossack Hosts
 #			type = army
-#			hq_region = sr:region_dniepr
+#			hq_region = sr:region_eastern_europe
 #			name = Donskoe_Voisko
 #
 #			# Don Cossacks
