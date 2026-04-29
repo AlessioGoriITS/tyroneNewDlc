@@ -1376,11 +1376,11 @@ claims_on_algeria = {
 british_hbc = {
 
 	is_shown = {
-		exists = c:HBC
+		exists ?= c:HBC
 		root = c:GBR
 		OR = {
-			c:QUE ?= exists
-			c:ONT ?= exists
+			exists ?= c:QUE
+			exists ?= c:ONT 
 		}
 		NOT = { has_variable = annex_hbc }
 		any_subject_or_below = {
@@ -1389,10 +1389,10 @@ british_hbc = {
 				country_has_primary_culture = cu:franco_canadian
 			}
 		}
-		c:ONT = {
+		c:ONT ?= {
 			is_subject_of = ROOT
 		}
-		c:QUE = {
+		c:QUE ?= {
 			is_subject_of = ROOT
 		}
 	}

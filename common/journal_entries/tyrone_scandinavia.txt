@@ -401,14 +401,14 @@ je_scandinavian_baltic_claims = {
 	}
 	possible = {
 		hidden_trigger = {
-		c:SCA = THIS
+		c:SCA ?= THIS
 		}
 		country_rank = rank_value:great_power
 		country_has_primary_culture = cu:finnish
 	}
 
 	is_shown_when_inactive = {
-		c:SCA = THIS
+		c:SCA ?= THIS
 	}
 
 	fail = {

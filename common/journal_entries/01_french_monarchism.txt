@@ -25,6 +25,10 @@
 			name = french_timer_var
 			value = 0
 		}
+		set_variable = {
+			name = french_dynastic_primary_progress_var
+			value = 0
+		}
 	}
 
 	scripted_progress_bar = divided_monarchists_orleanist_progress_bar
